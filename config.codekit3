@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https://codekitapp.com/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,7 +7,7 @@
 		"uuidString": "5D8D1262-8B8F-435C-8558-88A2D92D9D4F"
 		}
 	],
-"creatorBuild": "33081",
+"creatorBuild": "32001",
 "files": {
 	"/assets/monster.sketch": {
 		"cB": 0,
@@ -112,157 +112,157 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_base.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/base/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_normalize.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_typography.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/components/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_buttons.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/components/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_forms.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/components/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_navigation.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/helpers/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/helpers/_mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/helpers/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/helpers/_variables.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/layout/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_footer.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/sections/_demo.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_demo.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/deploy/css/styles.css",
 		"oF": 2,
 		"oS": 0,
-		"sct": 0
+		"uL": 1
 		},
 	"/gsap-bonus.tgz": {
 		"cB": 0,
@@ -810,7 +810,8 @@
 			"optionString": "{'before': true, 'after': true}"
 			},
 		"block-scoped-var": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"block-spacing": {
 			"active": 0,
@@ -865,20 +866,20 @@
 			"optionString": "'that'"
 			},
 		"constructor-super": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"curly": {
 			"active": 0,
 			"optionString": "'all'"
 			},
 		"default-case": {
-			"active": 0
-			},
-		"default-case-last": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"default-param-last": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"dot-location": {
 			"active": 0,
@@ -897,7 +898,8 @@
 			"optionString": "'always', {'null': 'always'}"
 			},
 		"for-direction": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"func-call-spacing": {
 			"active": 0,
@@ -928,14 +930,16 @@
 			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"grouped-accessor-pairs": {
 			"active": 0,
 			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"handle-callback-err": {
 			"active": 0,
@@ -1050,35 +1054,44 @@
 			"optionString": "{'ignoreChainWithDepth': 2}"
 			},
 		"no-alert": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-array-constructor": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-async-promise-executor": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-await-in-loop": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
 		"no-buffer-constructor": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-case-declarations": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-class-assign": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-compare-neg-zero": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-cond-assign": {
 			"active": 1,
@@ -1093,101 +1106,124 @@
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
 		"no-constructor-return": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-continue": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-control-regex": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-debugger": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-delete-var": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-div-regex": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-dupe-args": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-dupe-class-members": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-dupe-else-if": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-dupe-keys": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-duplicate-imports": {
 			"active": 0,
 			"optionString": "{'includeExports': false}"
 			},
 		"no-else-return": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-empty": {
 			"active": 1,
 			"optionString": "{'allowEmptyCatch': false}"
 			},
 		"no-empty-character-class": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-empty-function": {
 			"active": 0,
 			"optionString": "{'allow': []}"
 			},
 		"no-empty-pattern": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-eq-null": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-eval": {
 			"active": 0,
 			"optionString": "{'allowIndirect': false}"
 			},
 		"no-ex-assign": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-extend-native": {
 			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-extra-bind": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-extra-boolean-cast": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-extra-labels": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-extra-parens": {
 			"active": 0,
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
 			},
 		"no-extra-semi": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-fallthrough": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-floating-decimal": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-func-assign": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-global-assign": {
 			"active": 1,
@@ -1198,16 +1234,20 @@
 			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
 			},
 		"no-implicit-globals": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-implied-eval": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-import-assign": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-inline-comments": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-inner-declarations": {
 			"active": 1,
@@ -1226,33 +1266,36 @@
 			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
 			},
 		"no-iterator": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-label-var": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-labels": {
 			"active": 0,
 			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
 			},
 		"no-lone-blocks": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-lonely-if": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-loop-func": {
-			"active": 0
-			},
-		"no-loss-of-precision": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-mixed-operators": {
 			"active": 0,
@@ -1267,95 +1310,108 @@
 			"optionString": ""
 			},
 		"no-multi-assign": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
 			},
 		"no-multi-str": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-multiple-empty-lines": {
 			"active": 0,
 			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
 			},
 		"no-negated-condition": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-nested-ternary": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-new": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-new-func": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-new-object": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-new-require": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-new-symbol": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-new-wrappers": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-obj-calls": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-octal": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-octal-escape": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-param-reassign": {
 			"active": 0,
 			"optionString": "{'props': false}"
 			},
 		"no-path-concat": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-plusplus": {
 			"active": 0,
 			"optionString": "{'allowForLoopAfterthoughts': false}"
 			},
 		"no-process-env": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-process-exit": {
-			"active": 0
-			},
-		"no-promise-executor-return": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-proto": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-prototype-builtins": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
 			},
 		"no-regex-spaces": {
-			"active": 1
-			},
-		"no-restricted-exports": {
-			"active": 0,
-			"optionString": "{'restrictedNamedExports': []}"
+			"active": 1,
+			"optionString": ""
 			},
 		"no-restricted-globals": {
 			"active": 0,
 			"optionString": "'event', 'fdescribe'"
 			},
 		"no-restricted-imports": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-restricted-modules": {
 			"active": 0,
@@ -1374,33 +1430,40 @@
 			"optionString": "'except-parens'"
 			},
 		"no-return-await": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-script-url": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-self-assign": {
 			"active": 1,
 			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-sequences": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-setter-return": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
 			},
 		"no-shadow-restricted-names": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-sparse-arrays": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-sync": {
 			"active": 0,
@@ -1411,16 +1474,20 @@
 			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-ternary": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-this-before-super": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-throw-literal": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-trailing-spaces": {
 			"active": 0,
@@ -1431,34 +1498,36 @@
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-undefined": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-underscore-dangle": {
 			"active": 0,
 			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-unmodified-loop-condition": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-unneeded-ternary": {
 			"active": 0,
 			"optionString": "{'defaultAssignment': true}"
 			},
 		"no-unreachable": {
-			"active": 1
-			},
-		"no-unreachable-loop": {
-			"active": 0,
-			"optionString": "{'ignore': []}"
+			"active": 1,
+			"optionString": ""
 			},
 		"no-unsafe-finally": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-unsafe-negation": {
 			"active": 1,
@@ -1469,7 +1538,8 @@
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"no-unused-vars": {
 			"active": 1,
@@ -1479,51 +1549,57 @@
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
-		"no-useless-backreference": {
-			"active": 0
-			},
 		"no-useless-call": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-catch": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": "{'enforceForClassMembers': false}"
 			},
 		"no-useless-concat": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-constructor": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-escape": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-rename": {
 			"active": 0,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
 		"no-useless-return": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-var": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-void": {
 			"active": 0,
-			"optionString": "{'allowAsStatement': false}"
+			"optionString": ""
 			},
 		"no-warning-comments": {
 			"active": 0,
 			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
 			},
 		"no-whitespace-before-property": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"no-with": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"nonblock-statement-body-position": {
 			"active": 0,
@@ -1570,7 +1646,8 @@
 			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-const": {
 			"active": 0,
@@ -1581,32 +1658,40 @@
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-exponentiation-operator": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-numeric-literals": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-object-spread": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-regex-literals": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-spread": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-template": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"quote-props": {
 			"active": 0,
@@ -1621,20 +1706,24 @@
 			"optionString": "'always'"
 			},
 		"require-atomic-updates": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"require-await": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-unicode-regexp": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
-			"active": 1
+			"active": 1,
+			"optionString": ""
 			},
 		"rest-spread-spacing": {
 			"active": 0,
@@ -1697,7 +1786,8 @@
 			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"template-curly-spacing": {
 			"active": 0,
@@ -1724,14 +1814,16 @@
 			"optionString": "{'requireStringLiterals': true}"
 			},
 		"vars-on-top": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"wrap-iife": {
 			"active": 0,
 			"optionString": "'outside'"
 			},
 		"wrap-regex": {
-			"active": 0
+			"active": 0,
+			"optionString": ""
 			},
 		"yield-star-spacing": {
 			"active": 0,
@@ -2126,9 +2218,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"webpOptimizationPresetUUID": "lpckwebp-none",
-		"webpRGBQuality": 75
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
@@ -2154,9 +2244,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100,
-		"webpOptimizationPresetUUID": "lpckwebp-none",
-		"webpRGBQuality": 75
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2248,9 +2336,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100,
-		"webpOptimizationPresetUUID": "lpckwebp-none",
-		"webpRGBQuality": 75
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -2271,13 +2357,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"compilerType": 0,
 		"createSourceMap": 0,
+		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
+		"shouldRunBless": 0,
+		"useLibsass": 1
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
@@ -2651,8 +2737,6 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
-	"webpPresets": {
-		},
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"

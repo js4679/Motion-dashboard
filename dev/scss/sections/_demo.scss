@@ -5,21 +5,21 @@
 #draw-svg-container{
     display: grid;
     grid-template-columns: auto 50% auto;
-    grid-template-areas: ". draw .";
+    grid-template-areas: ". svg .";
     height: 100vh;
 
     >div{
-        grid-area: draw;
+        grid-area: svg;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        #star{
-            visibility: hidden;
+        #svg{
+            width: 100vh;
         }
 
-        #monster-2{
-            visibility: hidden;
-        }
+        // #ghost{
+        //     visibility: hidden;
+        // }
     }
 }
