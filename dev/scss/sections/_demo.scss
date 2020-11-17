@@ -1,0 +1,25 @@
+/* =============
+    Demo
+============= */
+
+#draw-svg-container{
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    grid-template-areas: ". draw .";
+    height: 100vh;
+
+    >div{
+        grid-area: draw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #star{
+            visibility: hidden;
+        }
+
+        #monster-2{
+            visibility: hidden;
+        }
+    }
+}
