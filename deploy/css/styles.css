@@ -391,3 +391,5 @@ textarea {
     align-items: center; }
     #draw-svg-container > div #svg {
       width: 100vh; }
+    #draw-svg-container > div #ghost {
+      visibility: hidden; }
