@@ -18,6 +18,8 @@ export function logoAnimation(){
 
     logoTL.to("#open-top",{duration: 2, y: -500 },"open")
             .to("#open-bottom",{duration: 2, y: 500 },"open")
+            .from("#blob", {duration:1, scale:0})
+            .to("#blob", {duration:2, scale:2, x:150, y: -20})
             .to("#blob",{duration: 3, morphSVG:"#ghost-fill"});
     return logoTL;
 }
