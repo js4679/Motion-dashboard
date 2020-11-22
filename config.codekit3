@@ -86,6 +86,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/border.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/border-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/demo.js": {
 		"bF": 0,
 		"ft": 64,
@@ -93,6 +104,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/demo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/music.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/music-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
