@@ -97,6 +97,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/capacityTurbo.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/capacityTurbo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/demo.js": {
 		"bF": 0,
 		"ft": 64,
@@ -104,6 +115,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/demo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/fuel.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/fuel-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
