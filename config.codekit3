@@ -9,20 +9,12 @@
 	],
 "creatorBuild": "32001",
 "files": {
-	"/assets/monster.sketch": {
+	"/assets/SummersJ_designV1.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/monster.sketch",
-		"oF": 0
-		},
-	"/assets/morph-svg.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/morph-svg.sketch",
+		"oAP": "/assets/SummersJ_designV1.sketch",
 		"oF": 0
 		},
 	"/deploy/css/styles.css": {
