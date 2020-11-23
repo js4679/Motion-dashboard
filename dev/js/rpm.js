@@ -13,13 +13,13 @@ export function rpmAnimation(){
 
     
 
-    rpmTL.from("#Stroke-1",{duration: .25, drawSVG: "0%" })
-        .from("#Stroke-2",{duration: .25, drawSVG: "0%" })
-        .from("#Stroke-3",{duration: .25, drawSVG: "0%" })
-        .from("#Stroke-4",{duration: .25, drawSVG: "0%" })
-        .from("#Stroke-5",{duration: .25, drawSVG: "0%" })
-        .from("#Stroke-6",{duration: .25, drawSVG: "0%" })
-        .from("#Stroke-7",{duration: .25, drawSVG: "0%" })
+    rpmTL.from("#rpm1",{duration: .25, drawSVG: "0%" })
+        .from("#rpm2",{duration: .25, drawSVG: "0%" })
+        .from("#rpm3",{duration: .25, drawSVG: "0%" })
+        .from("#rpm4",{duration: .25, drawSVG: "0%" })
+        .from("#rpm5",{duration: .25, drawSVG: "0%" })
+        .from("#rpm6",{duration: .25, drawSVG: "0%" })
+        .from("#rpm7",{duration: .25, drawSVG: "0%" })
         .from("#rpmNumbers",{duration: 1, alpha: 0});
 
     return rpmTL;
