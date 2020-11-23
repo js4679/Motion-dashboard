@@ -14,7 +14,7 @@ export function borderAnimation(){
     
 
     borderTL.from("#border",{duration: 3, drawSVG: "50% 50%" })
-            .from("#gearshift", {duration: 2, alpha: 0, stagger: .5});
+            .from("#gearshift", {duration: 1, alpha: 0, stagger: .5});
 
     return borderTL;
 }

@@ -20,9 +20,9 @@ export function speedAnimation(){
         .from("#speed5",{duration: .25, drawSVG: "0%" })
         .from("#speed6",{duration: .25, drawSVG: "0%" })
         .from("#speed7",{duration: .25, drawSVG: "0%" })
-        .from("#20",{duration: 1, alpha: 0})
-        .from("#40",{duration: 1, alpha: 0})
-        .from("#60",{duration: 1, alpha: 0});
+        .from("#twenty",{duration: .5, alpha: 0}, "in")
+        .from("#forty",{duration: .5, alpha: 0}, "in")
+        .from("#sixty",{duration: .5, alpha: 0}, "in");
 
     return speedTL;
 }

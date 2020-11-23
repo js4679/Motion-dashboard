@@ -15,8 +15,8 @@ gsap.registerPlugin(GSDevTools);
 const mainTL = gsap.timeline()
 mainTL.add(logoAnimation())
         .add(borderAnimation())
-        .add(rpmAnimation())
-        .add(speedAnimation())
+        .add(rpmAnimation(), "play")
+        .add(speedAnimation(), "play")
         .add(capacityTurboAnimation())
         .add(fuelAnimation())
         .add(musicAnimation());
