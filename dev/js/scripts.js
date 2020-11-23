@@ -6,6 +6,7 @@ import { borderAnimation } from "./border.js";
 import { musicAnimation } from "./music.js";
 import { fuelAnimation } from "./fuel.js";
 import { capacityTurboAnimation } from "./capacityTurbo.js";
+import { rpmAnimation } from "./rpm.js";
 
 
 gsap.registerPlugin(GSDevTools);
@@ -13,6 +14,7 @@ gsap.registerPlugin(GSDevTools);
 const mainTL = gsap.timeline()
 mainTL.add(logoAnimation())
         .add(borderAnimation())
+        .add(rpmAnimation())
         .add(capacityTurboAnimation())
         .add(fuelAnimation())
         .add(musicAnimation());
