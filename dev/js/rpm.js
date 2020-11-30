@@ -20,7 +20,9 @@ export function rpmAnimation(){
         .from("#rpm5",{duration: .25, drawSVG: "0%" })
         .from("#rpm6",{duration: .25, drawSVG: "0%" })
         .from("#rpm7",{duration: .25, drawSVG: "0%" })
-        .from("#rpmNumbers",{duration: 1, alpha: 0});
+        .from("#rpmNumbers",{duration: 1, alpha: 0})
+        .from("#time",{duration: 1, alpha: 0});
+
 
     return rpmTL;
 }

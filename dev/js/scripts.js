@@ -8,17 +8,19 @@ import { fuelAnimation } from "./fuel.js";
 import { capacityTurboAnimation } from "./capacityTurbo.js";
 import { rpmAnimation } from "./rpm.js";
 import { speedAnimation } from "./speed.js";
+import { radarAnimation } from "./radar.js"
 
 
 gsap.registerPlugin(GSDevTools);
 
 const mainTL = gsap.timeline()
 mainTL.add(logoAnimation())
-        .add(borderAnimation())
-        .add(rpmAnimation(), "play")
-        .add(speedAnimation(), "play")
+        .add(borderAnimation(), "play")
+        .add(radarAnimation(), "play")
+        .add(rpmAnimation(), "play2")
+        .add(speedAnimation(), "play2")
         .add(capacityTurboAnimation())
-        .add(fuelAnimation())
-        .add(musicAnimation());
+        .add(fuelAnimation(), "play3")
+        .add(musicAnimation(), "play3");
 
 GSDevTools.create();
