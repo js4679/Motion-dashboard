@@ -13,7 +13,8 @@ export function rpmAnimation(){
 
     
 
-    rpmTL.from("#rpm1",{duration: .25, drawSVG: "0%" })
+    rpmTL.from("#rpmShape",{duration: .25, alpha: 0, transformOrigin: "center" })
+        .from("#rpm1",{duration: .25, drawSVG: "0%" })
         .from("#rpm2",{duration: .25, drawSVG: "0%" })
         .from("#rpm3",{duration: .25, drawSVG: "0%" })
         .from("#rpm4",{duration: .25, drawSVG: "0%" })
