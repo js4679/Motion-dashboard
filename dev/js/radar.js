@@ -21,7 +21,8 @@ export function radarAnimation(){
             .from("#radarRing1", {duration: ringSpeed, scale:0, transformOrigin: "center" })
             .from("#radarOuterRing", {duration: ringSpeed, scale:0, transformOrigin: "center" })
             .from("#radarVertical",{duration: 1, drawSVG: "0%" })
-            .from("#radarHorizontal",{duration: 1, drawSVG: "0%" });
+            .from("#radarHorizontal",{duration: 1, drawSVG: "0%" })
+            .to("#radarInnerRing", {duration: 1, scale: 10, alpha: 0, transformOrigin: "center", repeat: 2 });
 
 
 
