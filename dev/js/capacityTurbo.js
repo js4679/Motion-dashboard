@@ -20,7 +20,7 @@ export function capacityTurboAnimation(){
             .from("#capacityTopFill",{duration: .5, alpha: 0 }, "fill")
             .from("#capacityMiddleFill",{duration: .5, alpha: 0}, "fill")
             .from("#capacityBottomFill",{duration: .5, alpha: 0}, "fill")
-            .from("#turboLeftFill",{duration: .5, alpha: 0 }, "fill")
+            .from("#turboLeftFill",{duration: .5, alpha: 0}, "fill")
             .from("#turboMiddleFill",{duration: .5, alpha: 0 }, "fill")
             .from("#turboRightFill",{duration: .5, alpha: 0 }, "fill")
             .from("#capacityText",{duration: .5, alpha: 0 }, "fill")
