@@ -20,7 +20,8 @@ export function logoAnimation(){
             .to("#open-bottom",{duration: 1, y: 500 },"open")
             .from("#blob", {duration:1, scale:0})
             .to("#blob", {duration:1, scale:1, x:150, y: -20})
-            .to("#blob",{duration: 2, morphSVG:"#ghost-fill"})
+            .to("#blob",{duration: 2, morphSVG:"#ghost-fill", x: 200, y: -50})
+            .from("#ghostFace", {duration:.5, alpha:0})
             .to("#first-load",{duration: 1, alpha: 0});
     return logoTL;
 }
