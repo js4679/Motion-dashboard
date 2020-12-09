@@ -22,9 +22,9 @@ mainTL.add(logoAnimation())
         .add(radarAnimation(), "play")
         .add(rpmAnimation(), "play2")
         .add(speedAnimation(), "play2")
-        .add(capacityTurboAnimation())
-        .add(fuelAnimation(), "play3")
-        .add(musicAnimation(), "play3")
+        .add(capacityTurboAnimation(), "play2")
+        .add(fuelAnimation(), "play2")
+        .add(musicAnimation(), "play2")
         .add(ongoingAnimation());
 
 GSDevTools.create();
