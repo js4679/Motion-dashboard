@@ -1,6 +1,8 @@
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 
+var audio = document.getElementById("audio");
+
 import { logoAnimation } from "./demo.js";
 import { borderAnimation } from "./border.js";
 import { musicAnimation } from "./music.js";
@@ -11,6 +13,13 @@ import { speedAnimation } from "./speed.js";
 import { radarAnimation } from "./radar.js";
 import { ongoingAnimation } from "./ongoing.js"
 
+
+playMusic();
+
+
+function playMusic(){
+    audio.play();
+}
 
 gsap.registerPlugin(GSDevTools);
 

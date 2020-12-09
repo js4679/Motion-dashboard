@@ -46,6 +46,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/music/GhostBusters-theme-song.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/music/GhostBusters-theme-song.mp3",
+		"oF": 0
+		},
 	"/dev/content/demo.kit": {
 		"cB": 0,
 		"ft": 2048,
