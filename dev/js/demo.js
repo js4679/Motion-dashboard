@@ -18,6 +18,7 @@ export function logoAnimation(){
             .from("#ghost",{duration: 2, scale: 20, transformOrigin: "center"})
             .from("#logoCircle",{duration: 1, alpha: 0, transformOrigin: "center"})
             .from("#logoCrossbar",{duration: 1, alpha: 0})
-            .to("#first-load",{duration: 1, alpha: 0});
+            .to("#logo", {duration: 1, scale: .36, x: 75, y: -265, delay: .75})
+            .to("#first-load",{duration: .5, alpha: 0});
     return logoTL;
 }
