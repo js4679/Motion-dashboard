@@ -11,7 +11,7 @@ import { capacityTurboAnimation } from "./capacityTurbo.js";
 import { rpmAnimation } from "./rpm.js";
 import { speedAnimation } from "./speed.js";
 import { radarAnimation } from "./radar.js";
-import { ongoingAnimation } from "./ongoing.js"
+import { ongoingAnimation } from "./ongoing.js";
 
 
 playMusic();
